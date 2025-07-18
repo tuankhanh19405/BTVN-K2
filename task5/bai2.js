@@ -1,4 +1,4 @@
-let n = prompt("Nhập số n:");
+let n = Number(prompt("Nhập số n:"));
 function printPrimeNumber(n) {
   if(typeof n !== 'number' || Number.isNaN(n)) {
     console.log("Invalid");
